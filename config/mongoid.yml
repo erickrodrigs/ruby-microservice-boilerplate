@@ -1,0 +1,17 @@
+development:
+  clients:
+    default:
+      database: ruby_ms_development
+      hosts:
+        - db:27017
+      options:
+        server_selection_timeout: 1
+
+test:
+  clients:
+    default:
+      database: ruby_ms_test
+      hosts:
+        - db:27017
+      options:
+        server_selection_timeout: 1
