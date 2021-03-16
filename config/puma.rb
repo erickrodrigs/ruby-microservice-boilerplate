@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 max_threads = 5
 min_threads = 1
 
