@@ -15,4 +15,4 @@ COPY ./ ./
 
 EXPOSE ${PORT}
 
-CMD ["shotgun", "config.ru"]
+CMD rerun -- rackup --port ${PORT} --host ${HOST} config.ru
